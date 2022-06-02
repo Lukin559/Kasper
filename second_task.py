@@ -1,3 +1,3 @@
 message = input().split('|')
-answer = ''.join([chr(int(i)+1071) for i in message])
+answer = ''.join([chr(int(i)+64) for i in message])
 print(answer)
