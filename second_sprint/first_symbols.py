@@ -1,4 +1,4 @@
-with open('Лукин_Илья_Спринт1.txt') as a:
+with open('Лукин_Илья_Спринт1.txt', 'rb') as a:
     if a.read(2) == 'MZ':
         print('0x4D 0x5A, MZ - executable, OS Windows')
     else:
